@@ -45,8 +45,7 @@ class Owner
     end
     @dogs.each do |dog|
       dog.mood = "nervous"
-      @dogs.clear
-      @@all.clear
+      reset_all
    end
   end
 
